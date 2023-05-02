@@ -1,0 +1,40 @@
+/*Type selectors */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    clear: left;
+}
+
+/* ID & Class Selectors*/
+#Nathan {
+    color:#0000ff; 
+}
+
+/*Relational selectors*/
+header img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+/*Combo selectors*/
+h3 p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 125%;
+    text-indent: 1em;
+}
+
+/*pseudo class*/
+a:visited {
+    color:#8c00ffaf;
+}
+
+a:hover, a:focus {
+    color: #00ff00; 
+}
+
