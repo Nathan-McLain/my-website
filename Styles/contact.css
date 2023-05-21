@@ -27,7 +27,6 @@ a:hover, a:focus {
 
 header {
     background-image: linear-gradient(30deg, #01ff4d 25%, #008011 45%, #03d103 65%, green 80%);
-
 }
 
 #Nathan {
@@ -39,6 +38,7 @@ header {
 
 
 /* the styles for the navigation menu */
+
 #nav_menu ul {
     list-style-type: none;
     margin: 0;
@@ -71,9 +71,6 @@ header {
     top: 100%;
 }
 
-#nav_menu ul ul li {
-    
-}
 
 #nav_menu ul li:hover>ul {
     display: block;
@@ -91,63 +88,6 @@ header {
 
 /* styles for the picture in the body*/
 
-#profile {
-    float: left;
-    min-width: 250px;
-    padding-right: 1em;
-}
-
-#about {
-    text-indent: .5em;
-    text-align: left;
-    padding-bottom: .5em;
-
-}
-/* Styles for the section*/
-
-#more {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 125%;
-    float: right;
-    padding: 0 2.5% 20px 2.5%;
-}
-/* currently not in use for this version of my website*/
-/* section p {
-    text-indent: .5em;
-    text-align: left;
-    padding-bottom: .5em;
-
-}
-
-/* Styles for the aside *
-aside {
-    width: 26.875%;
-    float: left;
-    margin: .5em 0 1em 1em;
-}
-
-aside img {
-    width: 75%;
-    min-width: 200px;
-    margin: .5em 0 1em 1em;
-    padding: 0 0 20px 2.5%;
-}
-
-/* Temp spot for the bio and resume image css*/
-
-#bio_image {
-    padding-bottom: 2em;
-}
-
-#resume {
-    width: 100%;
-    max-width: 1000px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Styles for the footer */
 
 footer {
     clear: both;
@@ -157,19 +97,11 @@ footer {
 }
 
 @media only screen and (max-width: 1020px) {
-    #profile {
-        float: none;
-        padding-top: 1em;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-
-    }
+   
 }
 
 @media only screen and (max-width: 940px) {
     #nav_menu ul li {
-       
         width: 100%;
     }
 
@@ -182,15 +114,6 @@ footer {
         border-bottom: none;
     }
 
-    #bio_image {
-        width: 30%;
-        min-width: 400px;
-        padding-bottom: 2em;
-        display:flex;
-        margin-left: auto;
-        margin-right: auto;
-    
-    }
 }
 
 @media only screen and (max-width: 700px) {
