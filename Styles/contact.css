@@ -96,22 +96,28 @@ footer {
     border: solid 2px #0000ff;
 }
 
-@media only screen and (max-width: 1020px) {
-   
+#mobile_menu {
+    display: none;
 }
 
 @media only screen and (max-width: 940px) {
-    #nav_menu ul li {
-        width: 100%;
+    #nav_menu {
+        display: none;
     }
 
-    #nav_menu ul li a {
-        border-right: none;
-        border-bottom: 2px solid white;
+    #mobile_menu {
+        display: block;
     }
 
-    #nav_menu ul li a.lastitem {
-        border-bottom: none;
+    .slicknav_menu {
+        background-color: #001aff !important;
+    }
+
+    #bio_image {
+        width: 30%;
+        min-width: 400px;
+        padding-bottom: 2em;
+
     }
 
 }
@@ -122,16 +128,26 @@ footer {
     }
 
     h2 {
-       font-size: 110%;
+        font-size: 110%;
     }
+
     h3 {
         font-size: 100%;
+    }
+
+    p {
+        font-size: 90%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    section, aside {
-        float: none;
-    }    
-}
 
+    section,
+    aside {
+        float: none;
+    }
+}

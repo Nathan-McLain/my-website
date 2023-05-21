@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" href="../Styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({ prependTo: "#mobile_menu" });
+        });
+    </script>
 </head>
 
 <body>
@@ -16,6 +24,7 @@
         <h1 id="Nathan"> Nathan McLain</h1>
 
     </header>
+    <nav id="mobile_menu"></nav>
     <nav id="nav_menu">
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -27,18 +36,20 @@
 
     </nav>
     <main>
-    <p>Download a copy of my <a href="../Nathan-McLain-Resume.docx"> resume</a></p>
-    <img src="../Images/resume.jpg" id="resume">
+        <p>Download a copy of my <a href="../Nathan-McLain-Resume.docx"> resume</a></p>
+        <img src="../Images/resume.jpg" id="resume">
 
-    <a href="../HTML/Resume.html">Back to Top</a>
-    <!--Temp white space to add a blank line for footer to be spaced out-->
-    <p></p>
-</main>
+        <a href="../HTML/Resume.html">Back to Top</a>
+        <!--Temp white space to add a blank line for footer to be spaced out-->
+        <p></p>
+    </main>
+
     <footer>
         <!--Temp white space to add a blank line for footer to be spaced out-->
         <p> </p>
         &copy; Nathan McLain 2023
     </footer>
+
 </body>
 
 </html>

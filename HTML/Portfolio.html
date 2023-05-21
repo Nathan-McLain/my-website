@@ -5,27 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/styles.css">
     <title>content Portfolio</title>
+    <link rel="stylesheet" href="../Styles/styles.css">
+    <link rel="stylesheet" href="../Styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({ prependTo: "#mobile_menu" });
+        });
+    </script>
 </head>
 
 <body>
-<header>
-    <h2> A Professional Resume </h2>
-    <h1 id="Nathan"> Nathan McLain</h1>
-</header>
-
-<!-- My basic nav menu that turns stacks after reaching a smaller size so the text can display correctly, moved the list from my bosy to the nav menu-->
-
-<nav id="nav_menu">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Bio.html">Bio</a></li>
-        <li><a href="Resume.html">Resume</a></li>
-        <li><a href="Portfolio.html">Experience Portfolio</a></li>
-        <li><a href="contact.html">Contact information</a></li>
-    </ul>
-</nav>
+    <header>
+        <h2> A Professional Resume </h2>
+        <h1 id="Nathan"> Nathan McLain</h1>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Bio.html">Bio</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Portfolio.html">Experience Portfolio</a></li>
+            <li><a href="contact.html">Contact information</a></li>
+        </ul>
+    </nav>
 
     <p>
     <h2> First Computer </h2>
