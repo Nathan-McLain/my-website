@@ -1,0 +1,7 @@
+Visually, there are a few areas where you could enhance the aesthetics of your website. I would consider giving your navigation menu some distinct characteristics, such as rounded edges or a subtle transparency effect, to make it stand out more and add a touch of modernity. Additionally,  you could explore using muted tones that create a more soothing and professional atmosphere. I also think you could use your banner as an eye-catcher by significantly enlarging and adding a captivating phrase like 'Meet Nathan McLain,' or 'Nathan McLain's Personal Resume'.
+
+the webpage seems somewhat outdated, so I suggest adding more color and maybe some more icons throughout. I also think that you could adjust the menu on your pages when it switches to mobile format, because when you press the menu button you tend to lose a lot of the information on the page. The mobile menu might look better horizontal, but it's up to you in the end!
+
+I updated the colors on my navigation menu to give it a darker and more moddern color to it. I also removed the right borders in an attempt to make the nav menu not look retro. 
+
+ I also centered my h2 tags for my experience Portfolio and added a grey background to add a more professional feel and to seperate the articls. I made the background semi transparent so that it dosnt over power the text. 

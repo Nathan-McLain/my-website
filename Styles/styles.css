@@ -5,6 +5,7 @@ body {
     width: 98%;
     max-width: 2560px;
     margin: 0 auto;
+    background-color: rgba(7, 116, 212, 0.233);
 }
 
 h1 {
@@ -38,11 +39,17 @@ header {
     background-image: linear-gradient(30deg, #01ff4d 25%, #008011 45%, #03d103 65%, green 80%);
 }
 
+header h2 {
+    margin: 0;
+    padding-left: .5em;
+}
+
 #Nathan {
     color: blue;
     padding: 1em;
+    margin-bottom: 0em;
     text-align: center;
-    border-bottom: solid 3px #8c00ffaf;
+    border-bottom: solid 4px #8c00ffaf;
 }
 
 
@@ -67,10 +74,9 @@ header {
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
-    background-color: #001aff;
+    background-color: #023a68;
     color: #ffffff;
     font-weight: bold;
-    border-right: 2px solid #ffffff;
 }
 
 #nav_menu ul ul {
@@ -92,7 +98,7 @@ header {
 }
 
 #nav_menu ul li a:hover {
-    background-color: #000e91;
+    background-color: #040b6d;
 }
 
 /* styles for the picture in the body*/
@@ -122,7 +128,7 @@ header {
 }
 
 
-/* Temp spot for the bio and resume image css*/
+/* Styles for my bio and resume page */
 
 #bio_image {
     padding-bottom: 2em;
@@ -137,6 +143,19 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* styles for my Experience Portfolio page */
+
+.Portfolio .exp {
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 1px solid black;
+    background-color: rgba(184, 181, 181, 0.418);
+}
+
+.Portfolio .header {
+    text-align: center;
 }
 
 /* Styles for the footer */
@@ -173,7 +192,7 @@ footer {
     }
 
     .slicknav_menu {
-        background-color: #001aff !important;
+        background-color: #023a68 !important;
     }
 
     #bio_image {
