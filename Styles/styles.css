@@ -39,16 +39,17 @@ p {
 /* Styles for the header */
 
 header {
-    background-image: linear-gradient(30deg, #01ff4d 25%, #008011 45%, #03d103 65%, green 80%);
+    background-image: linear-gradient(30deg, #012b50 10%, #003569 45%, #00264e 65%, #00498D 80%, #0052A2 100%);
 }
 
 header h2 {
     margin: 0;
     padding-left: .5em;
+    color: aliceblue;
 }
 
 #Nathan {
-    color: blue;
+    color: #a200ff;
     padding: 1em;
     margin-bottom: 0em;
     text-align: center;
@@ -129,6 +130,7 @@ header h2 {
 
 .content {
     padding: 20px;
+    line-height: 180%;
 }
 
 
@@ -136,7 +138,8 @@ header h2 {
 
 .bio {
     padding: 0 5%;
-    
+    line-height: 180%;
+
 }
 
 #bio_image {
@@ -164,6 +167,7 @@ header h2 {
 .Portfolio .exp {
     padding-left: 1em;
     padding-right: 1em;
+    line-height: 180%;
     border: 1px solid black;
     background-color: rgba(184, 181, 181, 0.418);
 }
@@ -180,6 +184,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1em;
+    margin: .5em 0;
     border: solid 2px #0000ff;
 }
 
@@ -218,6 +223,18 @@ footer {
 
     }
 
+    .Portfolio .exp {
+        line-height: 150%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    section,
+    aside {
+        float: none;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -240,12 +257,8 @@ footer {
     .grid-container {
         grid-template-columns: 1fr;
     }
-}
 
-@media only screen and (max-width: 800px) {
-
-    section,
-    aside {
-        float: none;
+    .Portfolio .exp {
+        line-height: 125%;
     }
 }
